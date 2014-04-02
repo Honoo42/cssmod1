@@ -1,0 +1,73 @@
+.nametable {
+	border-spacing: 0.5em;
+	border-collapse: collapse;
+	margin: 30px;
+}
+.trinstruct {
+	padding: 7px;
+	text-align: left;
+}
+.tspace {
+	border-bottom: 1px solid #bbb;
+	padding-left: 4em;
+	text-align: left;
+}
+.tspacebot {
+	padding-left: 4em;
+	text-align: left;
+}
+.theaders {
+	text-align: left;
+}
+.tstats{
+	border-bottom: 1px solid #bbb;
+	border-top: 1px solid #bbb;
+	text-align: left;
+}
+.promnum {
+	font-weight: bold;
+	font-size: 34px;
+	padding: 0.5em;
+}
+.tinlabels {
+	text-align: center;
+	font-weight: lighter;
+	color: #bbb;
+	padding-bottom: 0.5em;
+}
+.bartab {
+	width: 15%;
+	position: relative;
+	height: 300px;
+	text-align: right;
+}
+.skybar {
+	padding-bottom: .5em;
+	text-align: left;
+	display: inline-block;
+	white-space: nowrap;
+
+}
+.barcss {
+	position: absolute;
+	background-color: #3498db;
+	display: inline-block;
+	color: #fff;
+}
+.avatar {
+	float:left;
+	margin: 0 5px 0 0;
+}
+.nest {
+	display:inline;
+	text-indent: 4em;
+	text-align: left;
+}
+.nesttext {
+	display: inline;
+	text-indent: 4em;
+}
+.avatar .nesttext {
+	display: table-cell;
+	width: 10000px;
+}
