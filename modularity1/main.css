@@ -54,20 +54,39 @@
 	display: inline-block;
 	color: #fff;
 }
-.avatar {
+.imgblock .img{
 	float:left;
 	margin: 0 5px 0 0;
 }
-.nest {
-	display:inline;
-	text-indent: 4em;
-	text-align: left;
+
+.imgblock .img-medium {
+	margin-right: 10px;
 }
-.nesttext {
-	display: inline;
-	text-indent: 4em;
+.imgblock .img img{
+	display: block;
 }
-.avatar .nesttext {
+
+.imgblock .content {	
 	display: table-cell;
 	width: 10000px;
+}
+.container{
+	width: 100%;
+	margin: 0 auto;
+}
+.cf {
+  *zoom: 1;
+}
+
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+.avatar {
+	float: left;
 }
